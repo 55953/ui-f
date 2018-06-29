@@ -1,0 +1,67 @@
+$tallin:100px;
+.talldiv{
+    padding-top: $tallin;
+    padding-bottom: $tallin;
+    margin-right: -15px;
+}
+html { 
+    background: url(../img/Webtrans.svg) no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 328px;;
+}
+body{
+    background: transparent;
+}
+@media(max-width:768px){
+.narbar-right{
+    display:none;
+}
+.home-badge{
+    padding-top: $tallin;
+    padding-bottom: $tallin;
+    margin-right: -15px;
+    a{
+        color:green;
+        margin-bottom:-5px;
+        padding-right:5px;
+
+    }
+    p{
+        margin-left: 100px;
+        margin-top:-19px
+    }
+    a:hover{
+    text-decoration: none;
+    font: 1rem bold;
+    }
+}
+}
+
+@media (min-width: 768px){
+.home-badge{
+    padding-top: $tallin;
+    padding-bottom: $tallin;
+    margin-right: -15px;
+    a{
+        color:white;
+        margin-bottom:-5px;
+        padding-right:5px;
+
+    }
+    p{
+        margin-left: 100px;
+        margin-top:-23px
+    }
+    a:hover{
+    text-decoration: none;
+    font: 1rem bold;
+    }
+}
+
+
+
+
+}

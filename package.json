@@ -1,0 +1,32 @@
+{
+  "name": "ui-f",
+  "version": "1.0.0",
+  "description": "A new front end user interface with twitter bootstrap and Materialize css",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o src/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/55953/ui-f.git"
+  },
+  "keywords": [
+    "twitter_bootstrap",
+    "materialize"
+  ],
+  "author": "55953",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/55953/ui-f/issues"
+  },
+  "homepage": "https://github.com/55953/ui-f#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
