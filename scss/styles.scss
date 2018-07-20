@@ -1,16 +1,16 @@
 $tallin:100px;
+$backgrPriColor:#373D97;
+$backgrSecColor:#B1B7D9;
+$backgrThColor:#B9FBE0;
 html{ 
-    background: url(../img/Background.svg) no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    min-width: 328px;;
+                  
 }
 body{
     background: transparent;
+    background-image: url(../img/backbone.svg);       
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-
 .talldiv{
     padding-top: $tallin;
     padding-bottom: $tallin;
@@ -53,34 +53,28 @@ body{
     }
 }
 .ulview{
-    display: grid;
-    grid-template-columns: 50% auto;
-    height:auto;
-    align-self: center;
-    margin: 0 50px;
+    font-size: 0.6em;
     ul{
         list-style-type: none;
         perspective: 1000px;
     }
     ul li{
-        display:grid;
-        grid-template-columns: 20% auto;
-        border-radius: 10px;
-        padding: 15px;
+        border-radius: 8px;
+        padding: 5px;
         cursor: pointer;
         transform: rotateY(-7deg) rotateX(0deg);
         position: absolute;
-        border-bottom: 4px solid rgba(0,0,0,0.2);
+        border-bottom: 1px solid rgba(0,0,0,0.2);
         mix-blend-mode: multiply;
     }
     ul li:nth-child(1){
         background:#bfe8fc;
-        top:-240px;
+        top:-112px;
         z-index:3;
     }
     ul li:nth-child(2){
-        background:#fa9458;
-        top:-120px;
+        background:#f3ae86;
+        top:-56px;
         z-index:2;
     }
     ul li:nth-child(3){
@@ -89,7 +83,7 @@ body{
     }
     ul li:nth-child(4){
         background:#f38cab;
-        top:120px;
+        top:56px;
     }
     ul li:hover{
         transform: rotateY(-22deg) rotateX(7deg) scale(1.03);
@@ -98,7 +92,7 @@ body{
         mix-blend-mode:normal;
     }
     img{
-        width: 70px;
+        width: 20px;
     }
     h1{
         font-size: 3em;
@@ -108,4 +102,17 @@ body{
         color : gray;
         line-height: 1.5em;
     }
+}
+.homeIphone{
+    /*perspective: 1000px;
+    div{
+        transform: rotateY(21deg) rotateX(27deg);
+        position: absolute;
+    }*/
+    .phone-video{
+        position:absolute;
+        top:80.3px;
+        left:35.5px;
+    }
+
 }
